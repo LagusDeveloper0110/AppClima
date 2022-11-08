@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clima</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="search-form">
+        <form action="" id="search-form">
+          <div class="searchBox">
+            <input
+              type="text"
+              autocomplete="off"
+              placeholder="Buscar ciudad..."
+              class="search"
+              id="searchBox"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="weather-card" id="card">
+          <div id="city" class="city">Lima, Peru</div>
+        <div id="date" class="date">10/14/2020</div>
+        <div class="temperature">
+            <img src="assets/images/temp-mid.png" alt="Temperature" class="temp-img" id="temp-img">
+            <div class="temp" id="temp">14c</div>
+        </div>
+        <div class="weather" id="weather">Sol</div>
+        <div class="range" id="range">12c / 18c</div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
